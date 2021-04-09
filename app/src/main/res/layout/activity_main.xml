@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#34CDDC39"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:gravity="center_horizontal"
+            android:text="@string/titulo"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FC9C27B0"
+            android:gravity="center_horizontal"
+            android:text="Cadastro"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite seu nome">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#419C27B0" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite seu email"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#419C27B0" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4CAF50"
+            android:gravity="center_horizontal"
+            android:text="NewsLetter"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkEmail"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#404CAF50"
+                android:text="E-mail "
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/checkSms"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#404CAF50"
+                android:text="SMS "
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/checkWhats"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#404CAF50"
+                android:text="WhatsApp "
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E91E63"
+            android:gravity="center_horizontal"
+            android:text="Gênero"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupSexo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#40FFFFFF"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+            <RadioButton
+                android:id="@+id/radioBtnMasculino"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#41E91E63"
+                android:text="Maculino"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/radioBtnFeminino"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#41E91E63"
+                android:text="Feminino"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:gravity="center_horizontal"
+                android:text="Switch"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#FF5722"
+                android:gravity="center_horizontal"
+                android:text="Toggle Button"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switchSenha"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#4003A9F4"
+                android:checked="false"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Lembrar Senha"
+                android:textOff="Desligado"
+                android:textOn="Ligado"
+                android:textSize="12sp" />
+
+            <ToggleButton
+                android:id="@+id/toggleSenha"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="#40FF5722"
+                android:checked="false"
+                android:text="ToggleButton"
+                android:textOff="DESLIGADO"
+                android:textOn="LIGADO"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textProgresso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:gravity="center_horizontal"
+            android:text="ProgressBar"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progressBarHorizontal"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#41009688"
+            android:max="1" />
+
+        <ProgressBar
+            android:id="@+id/progressBarCircular"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#40009688"
+            tools:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textProgresso2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#673AB7"
+            android:gravity="center_horizontal"
+            android:text="SeekBar"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#40673AB7"
+            android:gravity="center"
+            android:text="Escala de 0 a 10" />
+
+        <SeekBar
+            android:id="@+id/seekBarEscala"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#40673AB7"
+            android:max="10" />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="enviar"
+            android:text="Enviar"
+            app:backgroundTint="@android:color/holo_green_light" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="limpar"
+            android:text="Limpar"
+            app:backgroundTint="@android:color/holo_red_light" />
+
+        <TextView
+            android:id="@+id/textResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>
