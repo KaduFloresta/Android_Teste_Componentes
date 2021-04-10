@@ -28,7 +28,7 @@
 # Android Layout
 ## Testes, métodos e chamadas de componentes do Android.
 
-1. Componentes:
+**1. Componentes:**
   - ImageView.
   - TextView.
   - TextInputLayout.
@@ -46,15 +46,15 @@
   - ScrowView.
   
 
-2. Orientação de tela:
+**2. Orientação de tela:**
   - Portrait.
  
-3. Layout:
+**3. Layout:**
  - LinearLayut.
    - Vertical.
    - Horizontal.
  
-3. Teste de cores:
+**3. Teste de cores:**
  - Alteração no XML.
    - Themes.
    - Colors. 
@@ -63,4 +63,4 @@
  ---
  
  # Print do Aplicativo 
- <img src="https://github.com/KaduFloresta/Android_Teste_Componentes/blob/master/app/src/main/res/drawable/print.png" alt="drawing" width="250"/> <img src="https://github.com/KaduFloresta/Android_Teste_Componentes/blob/master/app/src/main/res/drawable/print1.png" alt="drawing" width="250"/>  <img src="https://github.com/KaduFloresta/Android_Teste_Componentes/blob/master/app/src/main/res/drawable/print2.png" alt="drawing" width="250"/>
+ <img src="https://github.com/KaduFloresta/Android_Teste_Componentes/blob/master/app/src/main/res/drawable/print.png" alt="drawing" width="250"/> <img src="https://github.com/KaduFloresta/Android_Teste_Componentes/blob/master/app/src/main/res/drawable/print2.png" alt="drawing" width="250"/>  <img src="https://github.com/KaduFloresta/Android_Teste_Componentes/blob/master/app/src/main/res/drawable/print3.png" alt="drawing" width="250"/>
