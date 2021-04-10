@@ -63,4 +63,4 @@
  ---
  
  # Print do Aplicativo 
- <img src="https://github.com/KaduFloresta/Android_Teste_Componentes/blob/master/app/src/main/res/drawable/print.png" alt="drawing" width="250"/> <img src="https://github.com/KaduFloresta/Android_Teste_Componentes/blob/master/app/src/main/res/drawable/print2.png" alt="drawing" width="250"/>  <img src="https://github.com/KaduFloresta/Android_Teste_Componentes/blob/master/app/src/main/res/drawable/print3.png" alt="drawing" width="250"/>
+ <img src="https://github.com/KaduFloresta/Android_Teste_Componentes/blob/master/app/src/main/res/drawable/print.png" alt="drawing" width="280"/> <img src="https://github.com/KaduFloresta/Android_Teste_Componentes/blob/master/app/src/main/res/drawable/print2.png" alt="drawing" width="280"/>  <img src="https://github.com/KaduFloresta/Android_Teste_Componentes/blob/master/app/src/main/res/drawable/print3.png" alt="drawing" width="280"/>
