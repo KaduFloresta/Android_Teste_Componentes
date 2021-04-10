@@ -54,7 +54,7 @@
    - Vertical.
    - Horizontal.
  
-**3. Teste de cores:**
+**4. Teste de cores:**
  - Alteração no XML.
    - Themes.
    - Colors. 
